@@ -518,3 +518,277 @@ Name: reward, dtype: float64
 2025-08-13 16:41:12.621 | INFO     | __main__:train_price_predictor:194 - 在测试集上评估模型...
 2025-08-13 16:41:13.962 | INFO     | __main__:train_price_predictor:197 - 模型在测试集上的评估分数: 1.0000
 2025-08-13 16:41:13.965 | INFO     | __main__:train_price_predictor:202 - 电价预测器训练流程完成。
+2025-08-13 17:27:12.628 | INFO     | __main__:train_rl_agent:40 - Starting RL agent training process...
+2025-08-13 17:27:12.628 | INFO     | __main__:train_rl_agent:50 - 为本次RL实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172712
+2025-08-13 17:27:12.628 | INFO     | __main__:train_rl_agent:58 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 17:28:43.171 | INFO     | __main__:train_rl_agent:40 - Starting RL agent training process...
+2025-08-13 17:28:43.171 | INFO     | __main__:train_rl_agent:50 - 为本次RL实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172843
+2025-08-13 17:28:43.172 | INFO     | __main__:train_rl_agent:58 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 17:29:01.922 | INFO     | __main__:train_rl_agent:40 - Starting RL agent training process...
+2025-08-13 17:29:01.923 | INFO     | __main__:train_rl_agent:50 - 为本次RL实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172901
+2025-08-13 17:29:01.923 | INFO     | __main__:train_rl_agent:58 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 17:29:11.600 | INFO     | __main__:train_rl_agent:40 - Starting RL agent training process...
+2025-08-13 17:29:11.600 | INFO     | __main__:train_rl_agent:50 - 为本次RL实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172911
+2025-08-13 17:29:11.600 | INFO     | __main__:train_rl_agent:58 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 17:29:25.901 | INFO     | __main__:train_rl_agent:40 - Starting RL agent training process...
+2025-08-13 17:29:25.901 | INFO     | __main__:train_rl_agent:50 - 为本次RL实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172925
+2025-08-13 17:29:25.901 | INFO     | __main__:train_rl_agent:58 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 17:29:26.790 | INFO     | __main__:train_rl_agent:111 - Episode 1/100, Total Reward: 0.00
+2025-08-13 17:29:26.792 | INFO     | __main__:train_rl_agent:111 - Episode 2/100, Total Reward: 0.00
+2025-08-13 17:29:26.793 | INFO     | __main__:train_rl_agent:111 - Episode 3/100, Total Reward: 0.00
+2025-08-13 17:29:26.794 | INFO     | __main__:train_rl_agent:111 - Episode 4/100, Total Reward: 0.00
+2025-08-13 17:29:26.795 | INFO     | __main__:train_rl_agent:111 - Episode 5/100, Total Reward: 0.00
+2025-08-13 17:29:26.797 | INFO     | __main__:train_rl_agent:111 - Episode 6/100, Total Reward: 0.00
+2025-08-13 17:29:26.798 | INFO     | __main__:train_rl_agent:111 - Episode 7/100, Total Reward: 0.00
+2025-08-13 17:29:26.799 | INFO     | __main__:train_rl_agent:111 - Episode 8/100, Total Reward: 0.00
+2025-08-13 17:29:26.800 | INFO     | __main__:train_rl_agent:111 - Episode 9/100, Total Reward: 0.00
+2025-08-13 17:29:26.801 | INFO     | __main__:train_rl_agent:111 - Episode 10/100, Total Reward: 0.00
+2025-08-13 17:29:26.802 | INFO     | __main__:train_rl_agent:111 - Episode 11/100, Total Reward: 0.00
+2025-08-13 17:29:26.803 | INFO     | __main__:train_rl_agent:111 - Episode 12/100, Total Reward: 0.00
+2025-08-13 17:29:26.805 | INFO     | __main__:train_rl_agent:111 - Episode 13/100, Total Reward: 0.00
+2025-08-13 17:29:26.806 | INFO     | __main__:train_rl_agent:111 - Episode 14/100, Total Reward: 0.00
+2025-08-13 17:29:26.807 | INFO     | __main__:train_rl_agent:111 - Episode 15/100, Total Reward: 0.00
+2025-08-13 17:29:26.808 | INFO     | __main__:train_rl_agent:111 - Episode 16/100, Total Reward: 0.00
+2025-08-13 17:29:26.809 | INFO     | __main__:train_rl_agent:111 - Episode 17/100, Total Reward: 0.00
+2025-08-13 17:29:26.810 | INFO     | __main__:train_rl_agent:111 - Episode 18/100, Total Reward: 0.00
+2025-08-13 17:29:26.811 | INFO     | __main__:train_rl_agent:111 - Episode 19/100, Total Reward: 0.00
+2025-08-13 17:29:26.812 | INFO     | __main__:train_rl_agent:111 - Episode 20/100, Total Reward: 0.00
+2025-08-13 17:29:26.814 | INFO     | __main__:train_rl_agent:111 - Episode 21/100, Total Reward: 0.00
+2025-08-13 17:29:26.815 | INFO     | __main__:train_rl_agent:111 - Episode 22/100, Total Reward: 0.00
+2025-08-13 17:29:26.816 | INFO     | __main__:train_rl_agent:111 - Episode 23/100, Total Reward: 0.00
+2025-08-13 17:29:26.817 | INFO     | __main__:train_rl_agent:111 - Episode 24/100, Total Reward: 0.00
+2025-08-13 17:29:26.818 | INFO     | __main__:train_rl_agent:111 - Episode 25/100, Total Reward: 0.00
+2025-08-13 17:29:26.819 | INFO     | __main__:train_rl_agent:111 - Episode 26/100, Total Reward: 0.00
+2025-08-13 17:29:26.820 | INFO     | __main__:train_rl_agent:111 - Episode 27/100, Total Reward: 0.00
+2025-08-13 17:29:26.821 | INFO     | __main__:train_rl_agent:111 - Episode 28/100, Total Reward: 0.00
+2025-08-13 17:29:26.822 | INFO     | __main__:train_rl_agent:111 - Episode 29/100, Total Reward: 0.00
+2025-08-13 17:29:26.824 | INFO     | __main__:train_rl_agent:111 - Episode 30/100, Total Reward: 0.00
+2025-08-13 17:29:26.825 | INFO     | __main__:train_rl_agent:111 - Episode 31/100, Total Reward: 0.00
+2025-08-13 17:29:26.826 | INFO     | __main__:train_rl_agent:111 - Episode 32/100, Total Reward: 0.00
+2025-08-13 17:29:26.827 | INFO     | __main__:train_rl_agent:111 - Episode 33/100, Total Reward: 0.00
+2025-08-13 17:29:26.828 | INFO     | __main__:train_rl_agent:111 - Episode 34/100, Total Reward: 0.00
+2025-08-13 17:29:26.829 | INFO     | __main__:train_rl_agent:111 - Episode 35/100, Total Reward: 0.00
+2025-08-13 17:29:26.830 | INFO     | __main__:train_rl_agent:111 - Episode 36/100, Total Reward: 0.00
+2025-08-13 17:29:26.831 | INFO     | __main__:train_rl_agent:111 - Episode 37/100, Total Reward: 0.00
+2025-08-13 17:29:26.832 | INFO     | __main__:train_rl_agent:111 - Episode 38/100, Total Reward: 0.00
+2025-08-13 17:29:26.833 | INFO     | __main__:train_rl_agent:111 - Episode 39/100, Total Reward: 0.00
+2025-08-13 17:29:26.835 | INFO     | __main__:train_rl_agent:111 - Episode 40/100, Total Reward: 0.00
+2025-08-13 17:29:26.836 | INFO     | __main__:train_rl_agent:111 - Episode 41/100, Total Reward: 0.00
+2025-08-13 17:29:26.837 | INFO     | __main__:train_rl_agent:111 - Episode 42/100, Total Reward: 0.00
+2025-08-13 17:29:26.838 | INFO     | __main__:train_rl_agent:111 - Episode 43/100, Total Reward: 0.00
+2025-08-13 17:29:26.839 | INFO     | __main__:train_rl_agent:111 - Episode 44/100, Total Reward: 0.00
+2025-08-13 17:29:26.840 | INFO     | __main__:train_rl_agent:111 - Episode 45/100, Total Reward: 0.00
+2025-08-13 17:29:26.841 | INFO     | __main__:train_rl_agent:111 - Episode 46/100, Total Reward: 0.00
+2025-08-13 17:29:26.842 | INFO     | __main__:train_rl_agent:111 - Episode 47/100, Total Reward: 0.00
+2025-08-13 17:29:26.843 | INFO     | __main__:train_rl_agent:111 - Episode 48/100, Total Reward: 0.00
+2025-08-13 17:29:26.844 | INFO     | __main__:train_rl_agent:111 - Episode 49/100, Total Reward: 0.00
+2025-08-13 17:29:26.846 | INFO     | __main__:train_rl_agent:111 - Episode 50/100, Total Reward: 0.00
+2025-08-13 17:29:26.847 | INFO     | __main__:train_rl_agent:111 - Episode 51/100, Total Reward: 0.00
+2025-08-13 17:29:26.848 | INFO     | __main__:train_rl_agent:111 - Episode 52/100, Total Reward: 0.00
+2025-08-13 17:29:26.849 | INFO     | __main__:train_rl_agent:111 - Episode 53/100, Total Reward: 0.00
+2025-08-13 17:29:26.850 | INFO     | __main__:train_rl_agent:111 - Episode 54/100, Total Reward: 0.00
+2025-08-13 17:29:26.851 | INFO     | __main__:train_rl_agent:111 - Episode 55/100, Total Reward: 0.00
+2025-08-13 17:29:26.852 | INFO     | __main__:train_rl_agent:111 - Episode 56/100, Total Reward: 0.00
+2025-08-13 17:29:26.853 | INFO     | __main__:train_rl_agent:111 - Episode 57/100, Total Reward: 0.00
+2025-08-13 17:29:26.854 | INFO     | __main__:train_rl_agent:111 - Episode 58/100, Total Reward: 0.00
+2025-08-13 17:29:26.855 | INFO     | __main__:train_rl_agent:111 - Episode 59/100, Total Reward: 0.00
+2025-08-13 17:29:26.856 | INFO     | __main__:train_rl_agent:111 - Episode 60/100, Total Reward: 0.00
+2025-08-13 17:29:26.857 | INFO     | __main__:train_rl_agent:111 - Episode 61/100, Total Reward: 0.00
+2025-08-13 17:29:26.859 | INFO     | __main__:train_rl_agent:111 - Episode 62/100, Total Reward: 0.00
+2025-08-13 17:29:26.860 | INFO     | __main__:train_rl_agent:111 - Episode 63/100, Total Reward: 0.00
+2025-08-13 17:29:26.861 | INFO     | __main__:train_rl_agent:111 - Episode 64/100, Total Reward: 0.00
+2025-08-13 17:29:27.052 | INFO     | __main__:train_rl_agent:111 - Episode 65/100, Total Reward: 0.00
+2025-08-13 17:29:27.056 | INFO     | __main__:train_rl_agent:111 - Episode 66/100, Total Reward: 0.00
+2025-08-13 17:29:27.059 | INFO     | __main__:train_rl_agent:111 - Episode 67/100, Total Reward: 0.00
+2025-08-13 17:29:27.062 | INFO     | __main__:train_rl_agent:111 - Episode 68/100, Total Reward: 0.00
+2025-08-13 17:29:27.065 | INFO     | __main__:train_rl_agent:111 - Episode 69/100, Total Reward: 0.00
+2025-08-13 17:29:27.067 | INFO     | __main__:train_rl_agent:111 - Episode 70/100, Total Reward: 0.00
+2025-08-13 17:29:27.070 | INFO     | __main__:train_rl_agent:111 - Episode 71/100, Total Reward: 0.00
+2025-08-13 17:29:27.073 | INFO     | __main__:train_rl_agent:111 - Episode 72/100, Total Reward: 0.00
+2025-08-13 17:29:27.076 | INFO     | __main__:train_rl_agent:111 - Episode 73/100, Total Reward: 0.00
+2025-08-13 17:29:27.078 | INFO     | __main__:train_rl_agent:111 - Episode 74/100, Total Reward: 0.00
+2025-08-13 17:29:27.080 | INFO     | __main__:train_rl_agent:111 - Episode 75/100, Total Reward: 0.00
+2025-08-13 17:29:27.083 | INFO     | __main__:train_rl_agent:111 - Episode 76/100, Total Reward: 0.00
+2025-08-13 17:29:27.085 | INFO     | __main__:train_rl_agent:111 - Episode 77/100, Total Reward: 0.00
+2025-08-13 17:29:27.087 | INFO     | __main__:train_rl_agent:111 - Episode 78/100, Total Reward: 0.00
+2025-08-13 17:29:27.090 | INFO     | __main__:train_rl_agent:111 - Episode 79/100, Total Reward: 0.00
+2025-08-13 17:29:27.092 | INFO     | __main__:train_rl_agent:111 - Episode 80/100, Total Reward: 0.00
+2025-08-13 17:29:27.094 | INFO     | __main__:train_rl_agent:111 - Episode 81/100, Total Reward: 0.00
+2025-08-13 17:29:27.096 | INFO     | __main__:train_rl_agent:111 - Episode 82/100, Total Reward: 0.00
+2025-08-13 17:29:27.098 | INFO     | __main__:train_rl_agent:111 - Episode 83/100, Total Reward: 0.00
+2025-08-13 17:29:27.101 | INFO     | __main__:train_rl_agent:111 - Episode 84/100, Total Reward: 0.00
+2025-08-13 17:29:27.103 | INFO     | __main__:train_rl_agent:111 - Episode 85/100, Total Reward: 0.00
+2025-08-13 17:29:27.105 | INFO     | __main__:train_rl_agent:111 - Episode 86/100, Total Reward: 0.00
+2025-08-13 17:29:27.108 | INFO     | __main__:train_rl_agent:111 - Episode 87/100, Total Reward: 0.00
+2025-08-13 17:29:27.110 | INFO     | __main__:train_rl_agent:111 - Episode 88/100, Total Reward: 0.00
+2025-08-13 17:29:27.112 | INFO     | __main__:train_rl_agent:111 - Episode 89/100, Total Reward: 0.00
+2025-08-13 17:29:27.114 | INFO     | __main__:train_rl_agent:111 - Episode 90/100, Total Reward: 0.00
+2025-08-13 17:29:27.116 | INFO     | __main__:train_rl_agent:111 - Episode 91/100, Total Reward: 0.00
+2025-08-13 17:29:27.118 | INFO     | __main__:train_rl_agent:111 - Episode 92/100, Total Reward: 0.00
+2025-08-13 17:29:27.121 | INFO     | __main__:train_rl_agent:111 - Episode 93/100, Total Reward: 0.00
+2025-08-13 17:29:27.123 | INFO     | __main__:train_rl_agent:111 - Episode 94/100, Total Reward: 0.00
+2025-08-13 17:29:27.125 | INFO     | __main__:train_rl_agent:111 - Episode 95/100, Total Reward: 0.00
+2025-08-13 17:29:27.127 | INFO     | __main__:train_rl_agent:111 - Episode 96/100, Total Reward: 0.00
+2025-08-13 17:29:27.129 | INFO     | __main__:train_rl_agent:111 - Episode 97/100, Total Reward: 0.00
+2025-08-13 17:29:27.134 | INFO     | __main__:train_rl_agent:111 - Episode 98/100, Total Reward: 0.00
+2025-08-13 17:29:27.137 | INFO     | __main__:train_rl_agent:111 - Episode 99/100, Total Reward: 0.00
+2025-08-13 17:29:27.139 | INFO     | __main__:train_rl_agent:111 - Episode 100/100, Total Reward: 0.00
+2025-08-13 17:29:27.143 | INFO     | __main__:train_rl_agent:117 - RL代理模型已保存到: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172925/trading_agent.pth
+2025-08-13 17:29:27.147 | INFO     | __main__:train_rl_agent:123 - RL代理训练奖励已保存到: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172925/episode_rewards.csv
+2025-08-13 17:29:27.147 | INFO     | __main__:plot_rewards_curve:16 - 开始绘制RL训练奖励曲线 from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172925/episode_rewards.csv...
+2025-08-13 17:29:27.855 | INFO     | __main__:plot_rewards_curve:34 - RL训练奖励曲线已保存到: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172925/training_reward_curve.png
+2025-08-13 17:29:27.856 | INFO     | __main__:train_rl_agent:128 - RL agent training process finished.
+2025-08-13 17:30:09.383 | INFO     | __main__:train_rl_agent:40 - Starting RL agent training process...
+2025-08-13 17:30:09.384 | INFO     | __main__:train_rl_agent:50 - 为本次RL实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_173009
+2025-08-13 17:30:09.384 | INFO     | __main__:train_rl_agent:58 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 17:31:09.539 | INFO     | __main__:train_rl_agent:110 - Episode 1/100, Total Reward: -23184694.05
+2025-08-13 17:32:04.806 | INFO     | __main__:train_rl_agent:110 - Episode 2/100, Total Reward: -21274420.62
+2025-08-13 17:49:12.310 | ERROR    | __main__:<module>:104 - An error occurred during sample inference: name 'processed_data_path' is not defined
+2025-08-13 17:49:29.396 | ERROR    | __main__:<module>:104 - Could not find /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/final_dataset.csv. Please run data processing first.
+2025-08-13 17:52:38.480 | INFO     | __main__:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 17:52:38.481 | ERROR    | __main__:run_price_prediction:23 - Error: Price predictor model not found at /Users/kaizheng/Desktop/gemini/rl_power_trading/models/price_predictor.pth. Please train the model first.
+2025-08-13 17:52:44.401 | INFO     | __main__:train_price_predictor:63 - 开始电价预测器训练流程...
+2025-08-13 17:52:44.402 | INFO     | __main__:train_price_predictor:73 - 为本次实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_175244
+2025-08-13 17:52:44.402 | INFO     | __main__:train_price_predictor:82 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 17:52:44.899 | INFO     | __main__:train_price_predictor:94 - 分离特征和目标变量...
+2025-08-13 17:52:44.991 | WARNING  | __main__:train_price_predictor:137 - 目标数据中存在 NaN 或无穷大值，尝试处理...
+2025-08-13 17:52:44.992 | INFO     | __main__:train_price_predictor:143 - 创建序列数据...
+2025-08-13 17:52:45.531 | INFO     | __main__:train_price_predictor:169 - 划分训练集和测试集...
+2025-08-13 17:52:46.741 | INFO     | __main__:train_price_predictor:172 - 训练集大小: 28012, 测试集大小: 7004
+2025-08-13 17:52:46.762 | INFO     | __main__:train_price_predictor:180 - 开始训练电价预测模型...
+2025-08-13 17:54:21.441 | INFO     | __main__:train_price_predictor:63 - 开始电价预测器训练流程...
+2025-08-13 17:54:21.441 | INFO     | __main__:train_price_predictor:73 - 为本次实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_175421
+2025-08-13 17:54:21.441 | INFO     | __main__:train_price_predictor:82 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 17:54:22.035 | INFO     | __main__:train_price_predictor:94 - 分离特征和目标变量...
+2025-08-13 17:54:22.133 | WARNING  | __main__:train_price_predictor:137 - 目标数据中存在 NaN 或无穷大值，尝试处理...
+2025-08-13 17:54:22.134 | INFO     | __main__:train_price_predictor:143 - 创建序列数据...
+2025-08-13 17:54:22.504 | INFO     | __main__:train_price_predictor:169 - 划分训练集和测试集...
+2025-08-13 17:54:23.488 | INFO     | __main__:train_price_predictor:172 - 训练集大小: 28012, 测试集大小: 7004
+2025-08-13 17:54:23.490 | INFO     | __main__:train_price_predictor:180 - 开始训练电价预测模型...
+2025-08-13 17:57:15.647 | INFO     | __main__:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 17:57:15.648 | ERROR    | __main__:run_price_prediction:23 - Error: Price predictor model not found at /Users/kaizheng/Desktop/gemini/rl_power_trading/models/price_predictor.pth. Please train the model first.
+2025-08-13 17:57:23.918 | INFO     | __main__:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 17:57:23.918 | INFO     | __main__:run_price_prediction:27 - Preparing inference data...
+2025-08-13 17:57:23.922 | INFO     | __main__:run_price_prediction:72 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 17:57:23.941 | ERROR    | __main__:<module>:97 - An error occurred during sample inference: Error(s) in loading state_dict for PricePredictor:
+	size mismatch for lstm.weight_ih_l0: copying a param with shape torch.Size([256, 229]) from checkpoint, the shape in current model is torch.Size([256, 230]).
+2025-08-13 17:58:18.978 | INFO     | __main__:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 17:58:18.978 | INFO     | __main__:run_price_prediction:27 - Preparing inference data...
+2025-08-13 17:58:18.981 | INFO     | __main__:run_price_prediction:30 - Shape of X_inference: (100, 230)
+2025-08-13 17:58:18.982 | INFO     | __main__:run_price_prediction:73 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 17:58:18.986 | ERROR    | __main__:<module>:98 - An error occurred during sample inference: Error(s) in loading state_dict for PricePredictor:
+	size mismatch for lstm.weight_ih_l0: copying a param with shape torch.Size([256, 229]) from checkpoint, the shape in current model is torch.Size([256, 230]).
+2025-08-13 17:58:32.804 | INFO     | __main__:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 17:58:32.805 | INFO     | __main__:run_price_prediction:27 - Preparing inference data...
+2025-08-13 17:58:32.807 | INFO     | __main__:run_price_prediction:78 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 17:58:32.815 | ERROR    | __main__:<module>:103 - An error occurred during sample inference: can't convert np.ndarray of type numpy.object_. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint8, and bool.
+2025-08-13 17:58:43.651 | INFO     | __main__:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 17:58:43.651 | INFO     | __main__:run_price_prediction:27 - Preparing inference data...
+2025-08-13 17:58:43.653 | INFO     | __main__:run_price_prediction:29 - Data_df dtypes before dropping: actual_price          float64
+河东_point_0_lat        float64
+河东_point_0_lon        float64
+河东_point_0_ws100m     float64
+河东_point_0_wd100m     float64
+                       ...   
+河西_point_37_wd100m    float64
+河西_point_37_t2m       float64
+河西_point_37_ghi       float64
+issue_time_utc_str     object
+day_ahead_price       float64
+Length: 231, dtype: object
+2025-08-13 17:58:43.655 | INFO     | __main__:run_price_prediction:31 - X_inference dtypes after dropping: 0      object
+1      object
+2      object
+3      object
+4      object
+        ...  
+225    object
+226    object
+227    object
+228    object
+229    object
+Length: 230, dtype: object
+2025-08-13 17:58:43.657 | INFO     | __main__:run_price_prediction:80 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 17:58:43.660 | ERROR    | __main__:<module>:105 - An error occurred during sample inference: can't convert np.ndarray of type numpy.object_. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint8, and bool.
+2025-08-13 17:59:32.095 | INFO     | __main__:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 17:59:32.095 | INFO     | __main__:run_price_prediction:27 - Preparing inference data...
+2025-08-13 17:59:32.098 | INFO     | __main__:run_price_prediction:78 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 17:59:32.179 | INFO     | __main__:run_price_prediction:85 - Price prediction inference finished.
+2025-08-13 18:00:32.640 | INFO     | __main__:train_rl_agent:40 - Starting RL agent training process...
+2025-08-13 18:00:32.641 | INFO     | __main__:train_rl_agent:50 - 为本次RL实验创建了目录: /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_180032
+2025-08-13 18:00:32.641 | INFO     | __main__:train_rl_agent:58 - 从 /Users/kaizheng/Desktop/gemini/rl_power_trading/data/processed/aggregated_data.csv 加载处理过的数据...
+2025-08-13 18:01:28.589 | INFO     | __main__:train_rl_agent:110 - Episode 1/100, Total Reward: -24363385.51
+2025-08-13 18:11:25.127 | INFO     | __main__:run_full_trading_simulation:24 - Starting full trading simulation...
+2025-08-13 18:11:26.285 | INFO     | src.inference.predictor:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 18:11:26.285 | INFO     | src.inference.predictor:run_price_prediction:27 - Preparing inference data...
+2025-08-13 18:11:26.824 | INFO     | src.inference.predictor:run_price_prediction:78 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 18:11:34.497 | INFO     | src.inference.predictor:run_price_prediction:85 - Price prediction inference finished.
+2025-08-13 18:12:07.346 | INFO     | __main__:run_full_trading_simulation:24 - Starting full trading simulation...
+2025-08-13 18:12:08.426 | INFO     | src.inference.predictor:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 18:12:08.427 | INFO     | src.inference.predictor:run_price_prediction:27 - Preparing inference data...
+2025-08-13 18:12:08.823 | INFO     | src.inference.predictor:run_price_prediction:78 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 18:12:15.903 | INFO     | src.inference.predictor:run_price_prediction:85 - Price prediction inference finished.
+2025-08-13 18:12:52.310 | INFO     | __main__:run_full_trading_simulation:24 - Starting full trading simulation...
+2025-08-13 18:12:53.384 | INFO     | src.inference.predictor:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 18:12:53.384 | INFO     | src.inference.predictor:run_price_prediction:27 - Preparing inference data...
+2025-08-13 18:12:53.997 | INFO     | src.inference.predictor:run_price_prediction:78 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 18:13:00.971 | INFO     | src.inference.predictor:run_price_prediction:85 - Price prediction inference finished.
+2025-08-13 18:13:22.314 | INFO     | __main__:run_full_trading_simulation:105 - Full trading simulation finished. Total cumulative reward: -23492943.10
+2025-08-13 18:13:22.542 | INFO     | __main__:<module>:180 - Simulation results saved to /Users/kaizheng/Desktop/gemini/rl_power_trading/logs/simulation_results.csv
+2025-08-13 18:13:22.543 | INFO     | __main__:evaluate_results:118 - Starting evaluation of simulation results...
+2025-08-13 18:13:22.546 | INFO     | __main__:evaluate_results:136 - Average Price Prediction Error (clipped 0-1): nan
+2025-08-13 18:13:22.554 | INFO     | __main__:evaluate_results:148 - Total Cumulative Trading Reward: -23492943.10
+2025-08-13 18:13:22.555 | INFO     | __main__:evaluate_results:149 - Daily Trading Rewards (first 5 days):
+date
+2024-01-03         0.000000
+2024-01-04    -91808.409035
+2024-01-05    -99071.334510
+2024-01-06   -127827.504828
+2024-01-07   -100246.327389
+Name: reward, dtype: float64
+2025-08-13 18:13:22.555 | INFO     | __main__:evaluate_results:156 - Evaluation finished.
+2025-08-13 18:18:11.525 | INFO     | __main__:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 18:18:11.526 | INFO     | __main__:run_price_prediction:27 - Preparing inference data...
+2025-08-13 18:18:11.531 | INFO     | __main__:run_price_prediction:78 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 18:18:11.623 | INFO     | __main__:run_price_prediction:85 - Price prediction inference finished.
+2025-08-13 18:18:17.780 | INFO     | __main__:run_full_trading_simulation:25 - Starting full trading simulation...
+2025-08-13 18:19:16.178 | INFO     | __main__:run_full_trading_simulation:25 - Starting full trading simulation...
+2025-08-13 18:19:35.673 | INFO     | __main__:run_full_trading_simulation:25 - Starting full trading simulation...
+2025-08-13 18:21:20.233 | INFO     | __main__:run_full_trading_simulation:25 - Starting full trading simulation...
+2025-08-13 18:21:21.431 | INFO     | src.inference.predictor:run_price_prediction:17 - Starting price prediction inference...
+2025-08-13 18:21:21.431 | INFO     | src.inference.predictor:run_price_prediction:27 - Preparing inference data...
+2025-08-13 18:21:21.895 | INFO     | src.inference.predictor:run_price_prediction:78 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 18:21:29.433 | INFO     | src.inference.predictor:run_price_prediction:85 - Price prediction inference finished.
+2025-08-13 18:21:51.305 | INFO     | __main__:run_full_trading_simulation:106 - Full trading simulation finished. Total cumulative reward: -23936698.84
+2025-08-13 18:21:51.543 | INFO     | __main__:<module>:184 - Simulation results saved to /Users/kaizheng/Desktop/gemini/rl_power_trading/logs/simulation_results.csv
+2025-08-13 18:21:51.543 | INFO     | __main__:evaluate_results:119 - Starting evaluation of simulation results...
+2025-08-13 18:21:51.548 | INFO     | __main__:evaluate_results:137 - Average Price Prediction Error (clipped 0-1): nan
+2025-08-13 18:21:51.557 | INFO     | __main__:evaluate_results:149 - Total Cumulative Trading Reward: -23936698.84
+2025-08-13 18:21:51.557 | INFO     | __main__:evaluate_results:150 - Daily Trading Rewards (first 5 days):
+date
+2024-01-03         0.000000
+2024-01-04    -91199.162417
+2024-01-05    -95994.339706
+2024-01-06   -129864.863592
+2024-01-07   -101557.327974
+Name: reward, dtype: float64
+2025-08-13 18:21:51.557 | INFO     | __main__:evaluate_results:157 - Evaluation finished.
+2025-08-13 18:52:23.658 | INFO     | __main__:run_price_prediction:19 - Starting price prediction inference...
+2025-08-13 18:52:23.659 | ERROR    | __main__:run_price_prediction:22 - Error: Price predictor model not found at /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172925/price_predictor.pth. Please train the model first.
+2025-08-13 18:53:24.207 | INFO     | __main__:run_price_prediction:19 - Starting price prediction inference...
+2025-08-13 18:53:24.208 | INFO     | __main__:run_price_prediction:26 - Preparing inference data...
+2025-08-13 18:53:24.211 | INFO     | __main__:run_price_prediction:49 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 18:53:24.299 | INFO     | __main__:run_price_prediction:56 - Price prediction inference finished.
+2025-08-13 18:55:43.429 | INFO     | __main__:run_full_trading_simulation:25 - Starting full trading simulation...
+2025-08-13 18:55:44.134 | INFO     | __main__:run_full_trading_simulation:44 - Successfully loaded trading agent from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/rl_exp_20250813_172925/trading_agent.pth
+2025-08-13 18:55:44.134 | INFO     | src.inference.predictor:run_price_prediction:19 - Starting price prediction inference...
+2025-08-13 18:55:44.135 | INFO     | src.inference.predictor:run_price_prediction:26 - Preparing inference data...
+2025-08-13 18:55:44.697 | INFO     | src.inference.predictor:run_price_prediction:49 - Loading price predictor model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth...
+2025-08-13 18:55:52.136 | INFO     | src.inference.predictor:run_price_prediction:56 - Price prediction inference finished.
+2025-08-13 18:55:52.205 | INFO     | __main__:run_full_trading_simulation:52 - Successfully ran price prediction using model from /Users/kaizheng/Desktop/gemini/rl_power_trading/aexp/exp_20250813_164108/price_predictor.pth
+2025-08-13 18:56:13.619 | INFO     | __main__:run_full_trading_simulation:87 - Full trading simulation finished. Total cumulative reward: -23225549.50
+2025-08-13 18:56:13.841 | INFO     | __main__:<module>:148 - Full simulation results saved to /Users/kaizheng/Desktop/gemini/rl_power_trading/logs/simulation_results.csv
+2025-08-13 18:56:13.842 | INFO     | __main__:evaluate_results:94 - Starting evaluation of simulation results...
+2025-08-13 18:56:13.845 | INFO     | __main__:evaluate_results:106 - Average Price Prediction Error (clipped 0-1): nan
+2025-08-13 18:56:13.855 | INFO     | __main__:evaluate_results:114 - Total Cumulative Trading Reward: -23225549.50
+2025-08-13 18:56:13.855 | INFO     | __main__:evaluate_results:121 - Evaluation finished.

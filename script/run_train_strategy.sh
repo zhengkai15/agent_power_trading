@@ -10,7 +10,7 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 export PYTHONPATH="$PROJECT_ROOT:$PYTHONPATH"
 
 # Define the path to the RL agent training script
-RL_AGENT_SCRIPT="$PROJECT_ROOT/src/training/train_agent.py"
+RL_AGENT_SCRIPT="$PROJECT_ROOT/src/training/train_strategy.py"
 
 # --- Run RL Agent Training ---
 echo "Starting RL agent training..."

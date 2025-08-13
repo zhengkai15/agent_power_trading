@@ -10,7 +10,7 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 export PYTHONPATH="$PROJECT_ROOT:$PYTHONPATH"
 
 # Define the path to the price predictor training script
-PRICE_PREDICTOR_SCRIPT="$PROJECT_ROOT/src/training/train_predictor.py"
+PRICE_PREDICTOR_SCRIPT="$PROJECT_ROOT/src/training/train_price.py"
 
 
 # --- Run Price Predictor Training ---

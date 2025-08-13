@@ -17,6 +17,8 @@ class PowerTradingEnv(gym.Env):
         self.current_power_units = initial_power_units
         self.current_step = 0
         self.total_profit = 0.0
+        self.current_day = None # Track current day for daily profit calculation
+        self.daily_profit = 0.0 # Accumulate profit for the current day
 
         # Define action and observation space
         # Action: [bid_price_ratio, trade_amount_ratio]
@@ -80,6 +82,8 @@ class PowerTradingEnv(gym.Env):
         self.current_power_units = self.initial_power_units
         self.current_step = 0
         self.total_profit = 0.0
+        self.current_day = self.data_df.index[self.current_step].date() # Initialize current day
+        self.daily_profit = 0.0 # Reset daily profit
 
         observation = self._get_obs()
         info = self._get_info()
@@ -90,9 +94,18 @@ class PowerTradingEnv(gym.Env):
         return observation, info
 
     def step(self, action):
-        reward = 0.0
-        done = False
-        
+        done = False # Initialize done to False at the beginning of the step function
+        # Check if a new day has started
+        current_date = self.data_df.index[self.current_step].date()
+        if current_date != self.current_day:
+            # If it's a new day, the reward for the previous day is the daily_profit
+            reward = self.daily_profit
+            self.total_profit += self.daily_profit # Add daily profit to total profit
+            self.daily_profit = 0.0 # Reset daily profit for the new day
+            self.current_day = current_date # Update current day
+        else:
+            reward = 0.0 # Default reward for intermediate steps
+
         current_actual_price = self.data_df.iloc[self.current_step]['actual_price']
         current_day_ahead_price = self.data_df.iloc[self.current_step]['day_ahead_price']
 
@@ -132,21 +145,27 @@ class PowerTradingEnv(gym.Env):
                 transaction_successful = True
                 # Profit calculation: 单位挂单电量 * （挂单价格-日前价格）* flag
                 # Here, flag is 1 because it's successful
-                profit_per_unit = (bid_price - current_day_ahead_price)
-                reward = trade_amount * profit_per_unit
-                self.total_profit += reward
+                profit_per_unit = (bid_price - current_actual_price)
+                self.daily_profit += profit_per_unit * trade_amount # Accumulate daily profit
                 self.current_power_units += trade_amount # Update power units based on trade
             else:
                 # If prediction is wrong, profit is 0 for that trade based on the rule
-                reward = 0 # No profit/loss if prediction is wrong
+                pass # No profit/loss if prediction is wrong, do not add to daily_profit
 
         self.current_step += 1
 
-        if self.current_step >= len(self.data_df) -1: # -1 because we need next step for observation
+        if self.current_step >= len(self.data_df) -1:
             done = True
+            # If the episode ends, add any remaining daily profit to the total reward
+            if self.daily_profit != 0.0:
+                reward += self.daily_profit # Add remaining daily profit as final reward
+                self.total_profit += self.daily_profit # Add to total profit
+                self.daily_profit = 0.0 # Reset for next episode
 
         observation = self._get_obs()
         info = self._get_info()
+        info['bid_price'] = bid_price
+        info['reward_flag'] = transaction_successful
 
         if self.render_mode == "human":
             self._render_frame()
