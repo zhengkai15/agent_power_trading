@@ -1,0 +1,6 @@
+# Ignore data directory
+data/
+aexp/
+*.pt
+*.csv
+*.png

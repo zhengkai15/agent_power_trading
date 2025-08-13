@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+openpyxl
+loguru
+joblib
+torch
+gymnasium # gym is deprecated, use gymnasium
+tqdm
